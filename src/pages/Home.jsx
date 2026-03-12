@@ -9,10 +9,9 @@ import {
   MessageCircle,
 } from "lucide-react";
 import { useState } from "react";
-import heroImage from "figma:asset/3851d024444bbfe17b787ff24b1797f0a39398f2.png";
-import aboutImage from "figma:asset/1fc80c6f22582a568ea8b6712db04a9be3a452be.png";
-import contactImage from "figma:asset/0298f96d49f15f294e0fd74cdc3bbd66af0a6732.png";
-
+import heroImage from "../assets/3851d024444bbfe17b787ff24b1797f0a39398f2.png";
+import aboutImage from "../assets/1fc80c6f22582a568ea8b6712db04a9be3a452be.png";
+import contactImage from "../assets/0298f96d49f15f294e0fd74cdc3bbd66af0a6732.png";
 export default function Home() {
   const [menuOpen, setMenuOpen] = useState(false);
 
